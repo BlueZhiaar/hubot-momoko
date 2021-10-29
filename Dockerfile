@@ -12,5 +12,3 @@ RUN yarn global add coffeescript@1.12.7
 RUN useradd hubot-momoko -m
 USER hubot-momoko
 WORKDIR /home/hubot-momoko
-COPY . /home/hubot-momoko
-CMD ["sh", "run.sh"]
